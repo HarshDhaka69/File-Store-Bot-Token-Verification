@@ -31,7 +31,7 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "0614b91bc4afdf868bd04dbf792db0e3b893ab38")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_Download_7x/32")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/AnshuSigroha/28")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001897126087"))
