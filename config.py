@@ -27,7 +27,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "FileStockingBot")
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://publicearn.com/api")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com/api")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "0614b91bc4afdf868bd04dbf792db0e3b893ab38")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 43200)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
