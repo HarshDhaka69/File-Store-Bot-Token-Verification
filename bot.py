@@ -6,6 +6,8 @@ from plugins import web_server
 import pyromod.listen
 from pyrogram import Client
 from pyrogram.enums import ParseMode
+import pyrogram.utils
+pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
 import sys
 from datetime import datetime
 
