@@ -22,7 +22,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5190315686"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ItsHarshX:ItsHarshX@cluster0.x6tx9pi.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://itsharshx432:itsharshx432@itsharshx432.vxcphnl.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "FileStockingBot")
 
 #Shortner (token system) 
